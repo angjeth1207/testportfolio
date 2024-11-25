@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/*Header section*/
+.image-container{
+    border-radius: 50%;
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background-color: #34c759;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+.header h1{
+    font-size: 2.5em;
+}
+
+.header .cta-button{
+    background: #f7dc6f;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.header .cta-button:hover{
+    background: #ff9900;
+}
+
+/* Section Styling*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-container p{
+    background: #f7dc6f;
+    border-radius: 10px;
+}
+
+.about-container,
+.services-container,
+.contact-container{
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.about-container{
+    font-size: 1.2em;
+}
+/* Services */
+.services{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service{
+    background: #f7dc6f;
+    padding: 20px;
+    border-radius: 10px;
+    flex: 1 1 300px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/*Contact*/
+.contact-container iframe{
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600%;
+    height: 600px;
+    background: #f7dc6f;
+}
+
+#contact{
+    background-color: #f3f4f6;
+    padding: 30px 20px;
+}
+
